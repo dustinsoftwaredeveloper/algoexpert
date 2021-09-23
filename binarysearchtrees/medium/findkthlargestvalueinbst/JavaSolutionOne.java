@@ -7,6 +7,7 @@ class JavaSolutionOne {
     BST root = new BST(15);
     root.insert(5).insert(20).insert(2).insert(5).insert(17).insert(22).insert(1).insert(3);
     int k = 3;
+    System.out.println("test below");
     System.out.println(findKthLargestValueInBst(root, k) == 17);
   }
 
